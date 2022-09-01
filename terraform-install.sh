@@ -2,7 +2,7 @@
 # install terraform in ubuntu server
 sudo apt install wget unzip -y
 wget https://releases.hashicorp.com/terraform/1.2.8/terraform_1.2.8_linux_amd64.zip
-sudo unzip 1.2.8/terraform_1.2.8_linux_amd64.zip -d /usr/local/bin/
+sudo unzip terraform_1.2.8_linux_amd64.zip -d /usr/local/bin/
 #Export terraform binary path temporally
 export PATH=$PATH:/usr/local/bin
 #Add path permanently for current user.By Exporting path in .bashrc file at end of file.
